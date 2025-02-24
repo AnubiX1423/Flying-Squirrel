@@ -22,14 +22,8 @@ Download the game files.
 Extract the zip file to your desired location.
 Double-click FlyingSquirrel.exe to start playing!
 
-Note: Requires [e.g., Windows or Mac; additional tools if necessary].
-
 🙏 Credits
 Flying Squirrel was created by Buxi.
-
-Special thanks to:
-[Name or group for any art or sound assets].
-
 
 🛠 Support & Feedback
 If you encounter any issues or have feedback, I’d love to hear from you!
