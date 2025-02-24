@@ -12,20 +12,20 @@ class Squirrel(pygame.sprite.Sprite):
 
     def update(self, start, game_over):
         if start == True:
-            # Gravitáció
+            # Gravity
             self.gravity += 0.5
             if self.gravity > 10:
                 self.gravity = 10
             self.rect.y += int(self.gravity)
 
-            # Ugrás
+            # Jump
             if pygame.mouse.get_pressed()[0] and not self.click:
                 self.gravity = -10
                 self.click = True
             if not pygame.mouse.get_pressed()[0]:
                 self.click = False
 
-            # Forgás
+            # Rotation
             rotation_angle = self.gravity * -2
             self.image = pygame.transform.rotate(self.original_image, rotation_angle)
             self.rect = self.image.get_rect(center=self.rect.center)
